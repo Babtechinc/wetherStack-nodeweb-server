@@ -36,7 +36,7 @@ app.get('/weather',((req, res) => {
     const url ="http://api.weatherstack.com/current?access_key=e56949ea8d68bb3e76c2ea5554ff7794&query="+req.query.search+"&units=f"
     data = {
         url :"google.com",
-        data :"sunny"
+        data :"raining"
     }
     // appWeather(url,(data)=>{
         return res.send({
